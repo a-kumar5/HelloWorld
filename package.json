@@ -4,9 +4,12 @@
   "description": "A simple Node.js app",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node -r newrelic index.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "newrelic": "^11.9.0"
+  }
 }
